@@ -52,6 +52,17 @@ A modern, fast, and beautiful Islamic application built with Next.js 14, designe
    npm start
    ```
 
+## 🌐 Deployment (Render)
+
+This project is optimized for high-performance static hosting on **Render**.
+
+1. **Connect your GitHub repository** to Render.
+2. Select **Static Site** as the service type.
+3. Use the following settings:
+   - **Build Command**: `npm run build`
+   - **Publish Directory**: `out`
+4. Click **Deploy**.
+
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
